@@ -13,6 +13,11 @@ public class FruitTest extends TestBase {
                 "Ananas",
                 2, false);
 
+
+		doSimpleTest(9.0 / 11.0,
+				"Banana",
+				"Ananas",
+				2, false);
     }
 
 }

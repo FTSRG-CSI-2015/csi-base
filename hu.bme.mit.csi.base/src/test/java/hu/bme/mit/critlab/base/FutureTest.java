@@ -1,13 +1,11 @@
 package hu.bme.mit.critlab.base;
 
+import org.junit.Test;
+
 import java.util.LinkedList;
 import java.util.List;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Future;
-
-import org.junit.Test;
-
-import hu.bme.mit.critlab.base.DocumentSimilarityEstimator;
 
 public class FutureTest {
     static final String

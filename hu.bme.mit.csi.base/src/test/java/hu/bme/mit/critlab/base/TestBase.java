@@ -1,11 +1,9 @@
 package hu.bme.mit.critlab.base;
 
-import java.util.concurrent.ExecutionException;
-import java.util.concurrent.Future;
-
 import org.junit.Assert;
 
-import hu.bme.mit.critlab.base.DocumentSimilarityEstimator;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.Future;
 
 public class TestBase {
 

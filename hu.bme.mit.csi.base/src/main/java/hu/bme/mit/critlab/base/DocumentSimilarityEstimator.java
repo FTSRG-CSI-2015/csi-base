@@ -7,8 +7,8 @@ public interface DocumentSimilarityEstimator {
 
     /**
      * Computes the cosine similarity between two documents.
-	 * See https://github.com/FTSRG-CSI-2015/csi-lecture-notes/wiki/Running-Example
-	 *
+     * See https://github.com/FTSRG-CSI-2015/csi-lecture-notes/wiki/Running-Example
+     *
      * @param document1       the first document
      * @param document2       the second document
      * @param shingleSize     the number of tokens per (inner) shingle

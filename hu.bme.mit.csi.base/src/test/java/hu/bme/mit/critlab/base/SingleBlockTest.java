@@ -1,8 +1,8 @@
 package hu.bme.mit.critlab.base;
 
-import java.util.concurrent.ExecutionException;
-
 import org.junit.Test;
+
+import java.util.concurrent.ExecutionException;
 
 public class SingleBlockTest extends TestBase {
 

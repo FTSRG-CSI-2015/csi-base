@@ -3,5 +3,5 @@ jdk:
 install: true
 script:
   - cd hu.bme.mit.csi.base
-  - ./gradlew assemble
-  - ./gradlew check -x test
+  - TERM=dumb ./gradlew assemble
+  - TERM=dumb ./gradlew check -x test

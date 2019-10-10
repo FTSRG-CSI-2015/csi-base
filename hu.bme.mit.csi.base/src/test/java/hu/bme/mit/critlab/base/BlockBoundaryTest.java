@@ -81,8 +81,8 @@ public class BlockBoundaryTest extends TestBase {
     @Test
     public void blockHeadsTailsWords() throws ExecutionException {
         doSimpleTest(7.0 / Math.sqrt(11 * 9),
-                "a1 b1 c1. a1 b1", // a->2, ab->2, bc->1, c->1, b->1
-                "a1 b1. c1 d1 b1", // a->1, ab->1, b->2, c->1, cd->1, db->1
+                "a1 b1 c1. a1 b1", // a1->2, b1->2, c1->1
+                "a1 b1. c1 d1 b1", // a1->1, b1->2, c1->1, d1->1
                 2, true);
     }
 
